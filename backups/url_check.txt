@@ -1,0 +1,26 @@
+<?php
+if(isset($_GET['cid'])){
+	if(intval($_GET['cid'])==0){
+		redirect_to("index.php");
+	}
+}elseif(isset($_GET['sid'])){
+	if(intval($_GET['sid'])==0){
+		redirect_to("index.php");
+	}	
+}elseif(isset($_GET['pid'])){
+	if(intval($_GET['pid'])==0){
+		redirect_to("index.php");
+	}		
+}else{
+	find_selected_cid_sid_pid();
+}
+?>
+<br/>
+<?php
+$var = 20;
+$v ="SELECT * FROM users";
+echo "v: intval= ".intval($v);
+echo "<br>";
+echo "var: intval= ".intval($var);
+
+?>

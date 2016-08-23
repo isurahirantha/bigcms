@@ -1,0 +1,278 @@
+/* register form css */
+.dark-css {
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:5px;margin-bottom:5px;
+	max-width: 600px;
+	background: #555;
+	padding: 20px 30px 20px 30px;
+	font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #D3D3D3;
+	text-shadow: 1px 1px 1px #444;
+	border: none;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+.dark-css h1 {
+    padding: 0px 0px 10px 40px;
+    display: block;
+    border-bottom: 1px solid #444;
+    margin: -10px -30px 30px -30px;
+}
+.dark-css h1>span {
+    display: block;
+    font-size: 11px;
+}
+.dark-css label {
+    display: block;
+    margin: 0px 0px 5px;
+}
+.dark-css label>span {
+    float: left;
+    width: 30%;
+    text-align: left;
+    padding-right: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.dark-css label>p {
+    font-weight: bold;
+}
+
+.dark-css input[type="text"], .dark-css input[type="email"], .dark-css input[type="password"], .dark-css input[type="Retype_password"], .dark-css textarea, .dark-css select {
+	border: none;
+	color: #525252;
+	height: 25px;
+	line-height:15px;
+	margin-bottom: 16px;
+	margin-right: 6px;
+	margin-top: 2px;
+	outline: 0 none;
+	padding: 5px 0px 5px 5px;
+	width: 60%;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	background: #DFDFDF;
+}
+.dark-css select {
+    background: #DFDFDF url('down-arrow.png') no-repeat right;
+    background: #DFDFDF url('down-arrow.png') no-repeat right;
+    appearance:none;
+    -webkit-appearance:none; 
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+	width: 60%;
+    height: 35px;
+	color: #525252;
+	line-height: 25px;
+}
+.dark-css textarea{
+    height:100px;
+	padding: 5px 0px 0px 5px;
+	width: 60%;
+}
+.dark-css .button {
+	background: #555;
+	color: #fff;
+	border: 1px solid #fff;
+	margin-top: 10px;
+	padding: 10px 25px 10px 25px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	font-weight: bold;
+	box-shadow: 1px 1px 1px #3D3D3D;
+	-webkit-box-shadow:1px 1px 1px #3D3D3D;
+	-moz-box-shadow:1px 1px 1px #3D3D3D;
+
+}
+
+.dark-css .button:hover {
+    cursor: pointer;
+    background-color: #EBEBEB;
+    color:black;
+}
+/*form
+*/
+.dark-css-form{
+	float: right;
+	margin-top:1px;margin-bottom:5px;
+	width: 995px;
+	background: #555;
+	padding: 20px 30px 20px 30px;
+	font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #D3D3D3;
+	text-shadow: 1px 1px 1px #444;
+	border: none;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+.dark-css-form h1 {
+    padding: 0px 0px 10px 40px;
+    display: block;
+    border-bottom: 1px solid #444;
+    margin: -10px -30px 30px -30px;
+}
+.dark-css-form h1>span {
+    display: block;
+    font-size: 11px;
+}
+.dark-css-form label {
+    display: block;
+    margin: 0px 0px 5px;
+}
+.dark-css-form label>span {
+    float: left;
+    width: 20%;
+    text-align: left;
+    padding-right: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+.dark-css-form label>p {
+    font-weight: bold;
+}
+
+.dark-css-form input[type="text"], .dark-css-form input[type="email"], .dark-css-form input[type="password"],
+ .dark-css-form input[type="Retype_password"], .dark-css-form textarea, .dark-css-form select{
+	border: none;
+	color: #525252;
+	height: 25px;
+	line-height:15px;
+	margin-bottom: 16px;
+	margin-right: 6px;
+	margin-top: 2px;
+	outline: 0 none;
+	padding: 5px 0px 5px 5px;
+	width: 70%;
+	border-radius: 2px;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+	background: #DFDFDF;
+}
+.dark-css-form  select {
+    background: #DFDFDF url('down-arrow.png') no-repeat right;
+    background: #DFDFDF url('down-arrow.png') no-repeat right;
+    appearance:none;
+    -webkit-appearance:none; 
+    -moz-appearance: none;
+    text-indent: 0.01px;
+    text-overflow: '';
+	width: 30%;
+    height: 35px;
+	color: #525252;
+	line-height: 25px;
+}
+.dark-css-form  textarea{
+    height:400px;
+	padding: 5px 0px 0px 5px;
+	width: 70%;
+}
+.dark-css-form  .btn {
+	background: #555;
+	color: #fff;
+	border: 1px solid #fff;
+	margin-top: 10px;
+	padding: 10px 25px 10px 25px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	font-weight: bold;
+	box-shadow: 1px 1px 1px #3D3D3D;
+	-webkit-box-shadow:1px 1px 1px #3D3D3D;
+	-moz-box-shadow:1px 1px 1px #3D3D3D;
+	float: right;
+	margin-right: 70px;
+}
+.dark-css-form hr{
+	clear:both;
+}
+
+.dark-css-form .btn:hover {
+    /*cursor: pointer;*/
+    background-color: #EBEBEB;
+    color:black;
+}
+.word_processer{
+	height: auto;
+	background: silver;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	padding: 5px 5px 5px 5px;
+	margin-right: 5px;
+}
+.addbtn{
+	background:#555;
+	color: #fff;
+	border: 1px solid #fff;
+	border-radius:5px;
+	width:55px;
+	padding-top:2px;
+	padding-bottom: 2px;
+	margin-bottom: 2px;
+	margin-top:2px;
+	margin-left: 2px;
+}
+.addbtn:hover{
+    background-color: #EBEBEB;
+    color:black;
+    cursor: pointer;	
+}
+.club{
+	float: left;
+	margin-top:5px;
+	margin-bottom:5px;
+	margin-left: 5px;
+	width: 500px;
+	background: #555;
+	padding: 20px 30px 20px 30px;
+	font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #D3D3D3;
+	text-shadow: 1px 1px 1px #444;
+	border: none;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+.themeimg{
+	background-color: #f0f;
+	position:absolute;
+	top:170px;
+	right:200px;
+	width:835px;
+	height:200px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	display: box;
+	box-shadow: 1px 3px 3px 3px #222;
+	text-align: center;
+}
+.themeimg blockquote{
+	position:absolute;
+	top:40px;
+	left:25px;
+}
+.profileimg{
+  width:200px;
+  height:200px; 
+}
+ .profileimg img{
+  width:200px;
+  height:200px;	
+  	position:absolute;
+	top:180px;
+	right:210px;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	display: box;
+	box-shadow: 1px 3px 3px 3px #222;
+}

@@ -1,0 +1,30 @@
+			<?php if(!is_null($sel_sid)){ ?>
+
+				<h1><?php echo $sel_sid['menu_name'];?></h1>
+				<?php }elseif(!is_null($sel_pid)){?>
+
+				<h1><?php echo strtoupper($sel_pid['menu_name']); ?></h1>
+				<hr>
+				<div class="content"><?php echo $sel_pid['content']; ?></div>
+				<br>
+				<?php if (!empty($sel_pid['youtube_link'])){
+					echo "<div class=\"vedio\">", 
+					strip_tags($sel_pid['youtube_link'],"<iframe></iframe><embed></embed>"),
+					"</div>";} 
+				?>
+				<br>
+				<div class="date"><?php echo $sel_pid['posted_date']; ?></div>
+
+					<script type="text/javascript">
+					function goto_url(){
+						window.location="edit_page.php?pid= <?php echo $sel_pid['id']; ?>";
+					}
+					</script>
+					<button class="button" onclick="goto_url();">Edit_page</button>	
+
+				<?php }elseif(allow()===false){ ?>
+				<h1><?php echo "Select page or subject to edit"; ?></h1>
+				<?php }else{
+					NULL;
+				}
+			?>

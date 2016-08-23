@@ -1,0 +1,213 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+  isura removed blockquote element frm below category,
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, pre,
+abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+
+ 
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol {
+  list-style: none;
+}
+blockquote, q{
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+*{
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+h1{
+  font: bold 20px sans-serif, "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial;
+}
+h2{
+  font: bold 14px sans-serif, "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial;
+}
+header,nav,aside,section,article,footer,hgroup{
+  display: block;
+}
+/*------------*/
+.clubclass{
+  float: left;
+  background: white;
+  width:800px;
+
+}
+.side{
+  float: right;
+  background: red;
+  width:200px;
+}
+.theme{
+  float: left;
+  background:#FBFBFB;/*C8F7F3*/
+  margin: 0px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+
+}
+.photo{
+position:absolute;
+top:120px;
+left:860px;
+}
+.photo img{
+  border:2px solid #444;
+  width:200px;
+  height:200px;
+}
+.photo_theme img{
+  border-bottom:2px solid #444;
+  width:795px;height:200px;
+}
+.theme form{
+  margin-top:10px;
+  margin-left: 100px;
+}
+.theme textarea{
+  height:100px;
+  width: 50%;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+   box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.075);
+  -moz-box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.075);
+}
+.theme textarea:hover{
+  border:1px solid blue;
+}
+.welcome_msg:hover{
+ 
+}
+.theme label{
+    display: block;
+    margin: 5px 5px 5px 5px;
+}
+.theme label>span{
+    float: left;
+    width: 20%;
+    text-align: left;
+    padding-right: 0px;
+    font-weight: bold;
+}
+.theme #postbtn{
+  background: #ccc;
+  width:100px;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.welcome_msg{
+display:inline-block;
+width:570px;
+margin: 5px 5px 20px 5px;
+padding: 5px 5px 5px 5px;
+background: #107FE8;
+border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+box-shadow: 0px 5px 5px 5px rgb(50, 53, 50);
+}
+.post{
+display:block;
+margin: 5px 5px 20px 5px;
+padding: 10px 25px 10px 25px;
+background: #FBFBFB;/*C8F7F3*/
+border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+box-shadow: 0px 5px 5px 5px rgb(50, 53, 50);
+}
+.post img,iframe {
+  width:350px;
+  height:350px;
+}
+#username{
+  width:270px;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  display:block;
+  background: #222222;
+  color:#6FF494;
+  border-top-left-radius: 5px;
+  -webkit-border-top-left-radius: 5px;
+  -moz-border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  -webkit-border-top-right-radius: 5px;
+  -moz-border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  -moz-border-bottom-left-radius: 5px;
+  box-shadow: 0px 1px 1px 1px #4D5756;;
+  padding:10px 20px 10px 20px;
+
+}
+#usernamereply{
+  width:150px;
+  margin-top: 5px;
+  margin-left: 5px;
+  display:block;
+  background:#2FA3EA;
+  border-top-left-radius: 5px;
+  -webkit-border-top-left-radius: 5px;
+  -moz-border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+  -webkit-border-top-right-radius: 5px;
+  -moz-border-top-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+  -webkit-border-bottom-left-radius: 5px;
+  -moz-border-bottom-left-radius: 5px;
+  box-shadow: 0px 1px 1px 1px #22E0D2;
+  padding:10px 20px 10px 20px;
+
+}
+#postreply{
+  margin-left: 0px;
+}
+#postreply textarea{
+  width:50%; height:50px;
+   border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+   box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.075);
+  -moz-box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.075);
+}
