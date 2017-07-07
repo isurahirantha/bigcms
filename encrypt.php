@@ -1,3 +1,9 @@
+/*
+IMPORTANT....!
+This file is not relevent to the blogger system
+This is a test file
+which compare different encryption methods.
+*/
 <?php
 function encrypte($value){
 	$value =$value." "."useriswin";
