@@ -3,7 +3,7 @@
 <pre>
 Users can:-
 -Create an account.
--Create & Edite articles(posts) and categorize them.
+-Create & Edit articles(posts) and categorize them.
 -Comment to the article.
 -Like or dislike article.
 -Chatting application among registered users.
